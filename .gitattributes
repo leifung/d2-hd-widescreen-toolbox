@@ -1,0 +1,12 @@
+# Windows 脚本和配置文件保持 CRLF，避免行尾被转换导致 bat 异常
+*.bat text eol=crlf
+*.cfg text eol=crlf
+*.ini text eol=crlf
+
+# 文本文件统一 LF
+*.json text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+
+# DLL 等按二进制处理
+*.dll binary
