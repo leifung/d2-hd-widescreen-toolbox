@@ -1,0 +1,10 @@
+﻿Windows Registry Editor Version 5.00
+
+; 暗黑破坏神2 高清宽屏（D2DX）渲染器配置
+; 作用：让游戏默认使用 3dfx/Glide 渲染路径，由 glide3x.dll（D2DX）接管，进入高清宽屏渲染
+; 用法：双击本文件导入后重启游戏即可恢复。
+;       若进游戏卡死在人物选择界面，请改用 Play_HD_PlugY.bat 启动（或先把 Render 改成 1）。
+; 说明：Render=3 即 3dfx（D2DX 高清路径）；1=Direct3D，2=OpenGL，4=窗口模式
+
+[HKEY_CURRENT_USER\Software\Blizzard Entertainment\Diablo II\VideoConfig]
+"Render"=dword:00000003

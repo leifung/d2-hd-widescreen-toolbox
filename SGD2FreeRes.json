@@ -1,29 +1,24 @@
 {
     "SlashGaming Diablo II Free Resolution": {
+        "!!!Metadata (Do not modify)!!!": {
+            "Major Version A": 3,
+            "Major Version B": 0,
+            "Minor Version A": 1,
+            "Minor Version B": 0
+        },
         "Ingame Resolutions": [
             "640x480",
             "800x600",
             "856x480",
             "1024x768",
-            "1068x600",
-            "1280x720",
-            "1280x800",
-            "1360x768",
-            "1366x768",
-            "1368x768",
-            "1440x900",
-            "1600x900",
-            "1680x1050",
-            "1920x1080",
-            "1920x1200",
-            "2048x1152",
-            "2560x1080",
-            "2560x1440",
-            "3440x1440",
-            "3840x2160"
+            "1068x600"
         ],
-        "Ingame Resolution Mode": 2,
-        "Main Menu Resolution": "800x600"
+        "Ingame Resolution Mode": 4,
+        "Main Menu Resolution": "800x600",
+        "Custom MPQ File": "d2dx_sgd2freeres.mpq",
+        "Enable Screen Border Frame?": true,
+        "Use Original Screen Border Frame?": false,
+        "Use 800 Interface Bar?": true
     },
     "!!!Globals!!!": {
         "Config Tab Width": 4
